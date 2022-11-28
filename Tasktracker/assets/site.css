@@ -1,0 +1,53 @@
+
+body {
+    font: 14px;
+    color: #666;
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 1000;
+}
+
+h1{
+    font: 36px;
+    color:#404040;
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font:18px;
+}
+
+#form {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#form div {
+    background-color: white
+}
+
+#form ::placeholder{
+    color:red;
+    font-style: italic;
+}
+
+a{
+    color:green;
+}
+
+a:hover{
+    color:yellow;
+}
+
+footer i{
+    padding-left: 1rem;
+}
+
+
